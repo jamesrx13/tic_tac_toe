@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+
+    <div class="center">
+        <div class="btns">
+            <button class="btn-select" id="x">X</button>
+            <button class="btn" id="o">O</button>
+        </div>
+        <br>
+        <h2 class="tittle">Tic Tac Toe</h2>
+        <br>
+        <div class="map">
+
+            <div class="row">
+                <div class="item uno" id="0" onclick="addNewEntry(0)"></div>
+                <div class="item dos" id="1" onclick="addNewEntry(1)"></div>
+                <div class="item tres" id="2" onclick="addNewEntry(2)"></div>
+            </div>
+
+            <div class="row">
+                <div class="item cuatro" id="3" onclick="addNewEntry(3)"></div>
+                <div class="item cinco" id="4" onclick="addNewEntry(4)"></div>
+                <div class="item seis" id="5" onclick="addNewEntry(5)"></div>
+            </div>
+
+            <div class="row">
+                <div class="item siete" id="6" onclick="addNewEntry(6)"></div>
+                <div class="item" id="7" onclick="addNewEntry(7)"></div>
+                <div class="item nueve" id="8" onclick="addNewEntry(8)"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

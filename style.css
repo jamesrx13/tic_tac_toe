@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #272727;
+}
+
+.tittle {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    user-select: none;
+}
+
+.btn {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: #003b82;
+    color: white;
+    border: none;
+    user-select: none;
+}
+
+.btn:hover {
+    font-size: 50px;
+    padding: 15px;
+    background-color: #0073FF;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-select {
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+    background-color: #0073FF;
+    color: white;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 133px;
+    height: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    transition: .5s;
+    font-size: 50px;
+    user-select: none;
+}
+
+.map {
+    max-width: 399px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Estilo de las celdas (Puede cambiar) */
+
+.uno {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+.dos {
+    border-bottom: solid black;
+}
+
+.tres {
+    border-bottom: solid black;
+    border-left: solid black;
+}
+
+.cuatro {
+    border-right: solid black;
+    border-bottom: solid black;
+}
+
+.seis {
+    border-left: solid black;
+    border-bottom: solid black;
+}
+
+.siete {
+    border-right: solid black;
+}
+
+.cinco {
+    border-bottom: solid black;
+}
+
+.nueve {
+    border-left: solid black;
+}
